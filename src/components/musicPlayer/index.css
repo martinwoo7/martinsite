@@ -1,0 +1,28 @@
+.playpause {
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+
+.subtitle {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+.container {
+    /* margin-top: 5%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
