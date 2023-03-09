@@ -1,11 +1,18 @@
 .playpause {
     border-radius: 50%;
     border: none;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: 0.3s;
+}
+.playpause:hover {
+    background-color: rgba(255,170,126, 0.8);
+    transition: 0.3s;
 }
 
 .title {
@@ -13,7 +20,6 @@
     padding: 0;
     color: aliceblue;
 }
-
 
 .subtitle {
     margin: 0;
@@ -25,4 +31,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2%;
+}
+
+/* @media (max-width: 640px) {
+    .container {
+		display: none;
+		background-color: red;
+	}
+} */
+@media (max-height: 670px) {
+	.container {
+		display: none;
+	}
 }
