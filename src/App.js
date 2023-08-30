@@ -26,6 +26,8 @@ import Projects from "./routes/projects";
 import Experience from "./routes/experience";
 import Art from "./routes/art";
 
+// npm run build
+// firebase deploy --only hosting
 function getWindowDimensions() {
 	const { innerWidth: width, innerHeight: height } = window;
 	return {

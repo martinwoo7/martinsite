@@ -9,6 +9,7 @@ const Experience = () => {
 				<TabList>
 					<Tab>Machine Learning + Engineering</Tab>
 					<Tab>Website + App Development</Tab>
+					<Tab>Projects</Tab>
 					<Tab>Customer Service</Tab>
 				</TabList>
 
@@ -52,15 +53,17 @@ const Experience = () => {
 									dizziness.
 								</li>
 								<li>
-									Used Electron framework with React front-end
+									Uses Electron framework with React front-end
 									+ Python back-end to create a standalone
 									desktop app for suggesting parameters used
 									in a custom therapeutic protocol.
 								</li>
 							</ul>
 							<p>
-								Project is currently on hiatus while we wait for
-								responses from a company.
+								Dr. David has several papers published to the top journals based on his
+								custom therapeutic protocol for treating balanced-based dizziness. My program
+								analyzes the patient's intake data + initial performance results to suggest the parameters used
+								in his protocol and monitor patient results.
 							</p>
 						</div>
 
@@ -76,7 +79,7 @@ const Experience = () => {
 								paddingRight: "3%",
 							}}
 						>
-							<h2>Graduate Student | 2020-2022</h2>
+							<h2>Graduate Student (Machine Learning Research) | 2020-2022</h2>
 							<ul>
 								<li>
 									Worked under{" "}
@@ -97,7 +100,7 @@ const Experience = () => {
 									AEs, CNN, and IoT processing.
 								</li>
 								<li>
-									Used TensorFlow2 to produce state-of-the-art
+									Used TensorFlow2 to produce state-of-the-art (95%+)
 									and novel research on using clustering for
 									HAR.
 								</li>
@@ -120,7 +123,7 @@ const Experience = () => {
 								>
 									here
 								</Link>
-								. Note that it is VERY LONG and can be a tiny
+								. It is VERY LONG and can be a tiny
 								bit boring, unless you are keenly interested in
 								exploring different ways to cluster
 								high-dimensional smartphone sensor data.
@@ -187,6 +190,29 @@ const Experience = () => {
 								zIndex: 1,
 							}}
 						/>
+						<div
+							className="blurb"
+							style={{
+								marginLeft: 0,
+								marginRight: "50%",
+								display: "flex",
+								flexWrap: "wrap",
+								paddingLeft: "3%",
+								paddingRight: "3%",
+								width: "35%",
+							}}
+						>
+							<h2>Martin Woo (This website) | 2023</h2>
+							<ul>
+								<li>I coded this website using React.JS</li>
+							</ul>
+							<p>
+								Future plans include implementing ThreeJS to add
+								some fanciness to the site. So until I learn
+								ThreeJS and actually build the portfolio
+								website, this will have to do for now.
+							</p>
+						</div>
 						<div
 							className="blurb"
 							style={{
@@ -360,6 +386,44 @@ const Experience = () => {
 								paddingRight: "3%",
 							}}
 						>
+							<h2><a href="staging.martinwoo.ca">Ongoing Project</a> | Current </h2>
+							<ul>
+								<li>
+									Built using Django (Python) backend + React frontend communicating using
+									the Django REST Framework to make REST API calls to the server.
+								</li>
+								<li>
+									Hosted on a AWS EC2 instance running Ubuntu
+								</li>
+							</ul>
+							<p>
+								This is an ongoing project. 
+							</p>
+						</div>
+					</div>
+				</TabPanel>
+				<TabPanel>
+					<div class="expContainer">
+						<div
+							className="verticalLine"
+							style={{
+								height: "100%",
+								position: "absolute",
+								zIndex: 1,
+							}}
+						/>
+						<div
+							className="blurb"
+							style={{
+								marginTop: "5%",
+								marginLeft: "50%",
+								display: "flex",
+								flexWrap: "wrap",
+								width: "35%",
+								paddingLeft: "3%",
+								paddingRight: "3%",
+							}}
+						>
 							<h2>Bubble Tea Barista | 2021 </h2>
 							<ul>
 								<li>
@@ -478,7 +542,7 @@ const Experience = () => {
 									do stuff concerning wood.
 								</li>
 							</ul>
-                            <p>I got incredibly fit as a reward.</p>
+							<p>I got incredibly fit as a reward.</p>
 						</div>
 					</div>
 				</TabPanel>
